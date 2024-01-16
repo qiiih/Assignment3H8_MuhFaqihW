@@ -15,5 +15,6 @@ function sumArray(arr, num) {
     console.log(result);
 }
 
+console.log("-------------Soal 3--------------");
 sumArray([2,1,4,3], 5)
 sumArray([1,8,10,3], 11)
