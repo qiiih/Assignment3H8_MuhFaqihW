@@ -17,4 +17,3 @@ function sumArray(arr, num) {
 
 sumArray([2,1,4,3], 5)
 sumArray([1,8,10,3], 11)
-sumArray([9,7], 16)

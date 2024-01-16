@@ -1,7 +1,7 @@
 function arrSum(arr) {
     let sumMax = -Infinity
     let sumArr = []
-    for (let i = 0; i < arr.length-1; i++) {
+    for (let i = 0; i < arr.length; i++) {
         for (let j = i+1; j <= arr.length; j++) {
             const slicedArr = arr.slice(i, j)
             const sum = slicedArr.reduce((total, el) => total + el)
@@ -18,4 +18,3 @@ function arrSum(arr) {
 }
 
 arrSum([-2, -3, 4, -1, -2, 1, 5, -3])
-arrSum([-1, -2, -3])
